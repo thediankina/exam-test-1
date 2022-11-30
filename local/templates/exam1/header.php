@@ -108,7 +108,7 @@ IncludeTemplateLangFile(__FILE__);
                     <div class="cnt">
                         <?php if($APPLICATION->GetCurPage() != "/") { ?>
                         <header>
-                            <h1><?$APPLICATION->ShowTitle()?></h1>
+                            <h1><?$APPLICATION->ShowTitle("H1");?></h1>
                         </header>
                         <hr>
                         <?php } else { ?>
